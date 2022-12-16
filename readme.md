@@ -3,6 +3,12 @@
 # Resources
 [ JHipster web site ](https://www.jhipster.tech/)  
 [ JHipster Release notes ](https://www.jhipster.tech/releases/)  
+[ JHipster Online ](https://start.jhipster.tech/)  
+
+[ JHipster lite ](https://lite.jhipster.tech/landscape)  
+[ JHipster lite Github ](https://github.com/jhipster/jhipster-lite)  
+
+
 
 # Versions used
 - Ubuntu 22.04
