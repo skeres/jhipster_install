@@ -1,4 +1,4 @@
-# JHipster on Ubuntu 22.04
+# Installing JHipster on Ubuntu 22.04
 
 # Resources
 [ JHipster web site ](https://www.jhipster.tech/)  
@@ -62,7 +62,7 @@ jhipster
 ```
 get error : Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath **'./lib/util/namespace' is not defined by "exports" in /opt/homebrew/lib/node_modules/generator-jhipster/node_modules/yeoman-environment/package.json**  
 
-**Correcting this bug** in this current version  ( see [ Github Running jhipster command throws Error ](https://github.com/jhipster/generator-jhipster/issues/19627)  )  
+**Correcting this bug** in the current version  ( see [ Github Running jhipster command throws Error ](https://github.com/jhipster/generator-jhipster/issues/19627)  )  
 
 ```
 cd ~/.nvm/versions/node/v18.12.1/lib/node_modules/generator-jhipster/node_modules/yeoman-environment  
