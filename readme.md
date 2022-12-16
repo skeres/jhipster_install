@@ -1,7 +1,7 @@
 # JHipster on Ubuntu 22.04
 
 # Resources
-[ JHipster ](https://www.jhipster.tech/)  
+[ JHipster web site ](https://www.jhipster.tech/)  
 [ JHipster Release notes ](https://www.jhipster.tech/releases/)  
 
 # Versions used
@@ -9,7 +9,7 @@
 - JHipster v7.9.3
 
 
-## Installation
+# Installation
 source : [ Installing JHipster ](https://www.jhipster.tech/installation/)  
 
 **check nvm version**  
@@ -62,17 +62,16 @@ jhipster
 ```
 get error : Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath **'./lib/util/namespace' is not defined by "exports" in /opt/homebrew/lib/node_modules/generator-jhipster/node_modules/yeoman-environment/package.json**  
 
-correcting this bug in current version  
-( see [ Github Running jhipster command throws Error ](https://github.com/jhipster/generator-jhipster/issues/19627)  
+correcting this bug in current version  ( see [ Github Running jhipster command throws Error ](https://github.com/jhipster/generator-jhipster/issues/19627)  )  
 
 ```
 cd ~/.nvm/versions/node/v18.12.1/lib/node_modules/generator-jhipster/node_modules/yeoman-environment  
 ```
-- back the file  
+- backup the file  
 ```
 cp package.json package.json.backup_today  
 ```
-- Correct file with your editor  
+- Correct file with your favorite editor  
 ```
 vi package.json  
 ```
@@ -123,7 +122,7 @@ cd myapplication/
 jhipster  
 ```
 
-- and answer the questions asked by the generator !  
+- and answer questions asked by the generator !  
 
  
 
